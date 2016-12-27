@@ -21,7 +21,7 @@ import { styles } from './CustomStyles';
 var style = require('./CustomStyles');
 const failedFetch = 'Fetch request failed!';
 
-export default class NewsFeed extends Component {
+export default class Master extends Component {
 
   constructor(props) {
     super(props);
@@ -107,4 +107,4 @@ export default class NewsFeed extends Component {
 
 }
 
-AppRegistry.registerComponent('Test', () => NewsFeed);
+AppRegistry.registerComponent('Test', () => Master);
